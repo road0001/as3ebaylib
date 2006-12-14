@@ -30,10 +30,10 @@ classes.
 			 */
 			public function onCreationComplete():void
 			{
-				AuthAndAuth.apiDevName = "D818J65K1CF5DA3Q4TN18136P44BJ4";;
-				AuthAndAuth.apiAppName = "ADOBESYSTEE1528F1AS5X1NZ314OME";;
-				AuthAndAuth.apiCertName = "I5TIXXEM883$WA97M1T95-12Q7O3OH";
-				AuthAndAuth.apiAuthToken = "AgAAAA**AQAAAA**aAAAAA**JppoRA**nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wJnY+lD5aKpw+dj6x9nY+seQ**eH0AAA**AAMAAA**v52Ep5U1ZCbxGvRThSnt4EamMhGW6T6tEPX3VeX/iHMlyLmvnLDqTPiXmMU+hTlxkI9BVvpE+jN8m7qZ5GHZgVFOJWn/B29LWMJXEsKDnBA6yDNLwSRCa16pCr10jeSbMWVM/J/WG4Ts7zkyCS1Z+SX+PIj2q8PqaoUJhbiInX+mxD19f1ZczsMmedkS9fnhLmz4Aq8+nIHRgCfsZpkCywT1+Z9BJg17NfwHDYbLK3TSrTRhxqq76L224yqpEx800DPaS1IoH8hAvcKKe3/VPPLFMixsHXvGOcWbGh1U4m2Yi3gIlannVqoFWGrRDP2EXPDpxkwA8vu9CltYd/yFaLyru+ehHxquTdxq8VgDahfiY4TClJRqQ2rTpMP7TuIefW0XEn89pE2sO7QtmScJfkd7vIbTdXjI2wgpnMRvMqYzp3Px3FADyxlH7MCA7LdNwrxcwjEZyjqXq8JXFbqno+9CTfjv/e0voWyvNh2A3queJKA7qpyaT6iIjnRgFhyVSFlk4T0FTTWebTRiN6YqPM1eyRcUkM4ImuMAo+Edfzi7bYP957e5a3uIa7AgUVQMs7OQHHAokQhHzt6DfDzYxwC2ZMDj7Wk6hvGNjNRluT2Ur1pUqCAP1hOvSjEmvyfJKlkbPgcacfFpkqeC4gyZLimspdGfAmYsTYBKbcnQp2RM5zUeLViAcrhXev0GVc8EhO3yGyluBA1E/V1zeulDD+38LzgNH643IbeRAdvZE32BZFQKgx3KCr7NiLpGtg0D";
+				AuthAndAuth.apiDevName = "";
+				AuthAndAuth.apiAppName = "";
+				AuthAndAuth.apiCertName = "";
+				AuthAndAuth.apiAuthToken = "";
 				
 				// Create a new service every time so the old one that already has
 				// listeners defined on it will get garbaged collected
