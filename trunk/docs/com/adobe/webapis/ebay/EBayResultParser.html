@@ -1,0 +1,2184 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../../print.css" type="text/css" media="print">
+<meta content="EBayResultParser,com.adobe.webapis.ebay.EBayResultParser,parseAddOrRemoveFromWatchListResult,parseAddress,parseBestOfferDetails,parseBiddingDetails,parseBidList,parseBidListItem,parseBuyerInfo,parseBuyerRequirements,parseBuyingSummary,parseCalculatedShippingRate,parseCategory,parseCharity,parseContactDetails,parseCrossPromotion,parseDateString,parseDigitalDeliveryDetails,parseDistance,parseEBayError,parseEBayItem,parseEBayUser,parseErrorParameter,parseExpressItemRequirements,parseExpressSellerRequirements,parseInsuranceDetails,parseItem,parseItemSpecific,parseListingCheckoutRedirectPreference,parseListingDesigner,parseListingDetails,parseLostList,parseLostListItem,parseMaximumItemRequirements,parseMyEBayBuyingItems,parsePaginationResult,parsePaymentDetails,parsePictureDetails,parsePlaceOfferResult,parseProductListingDetails,parsePromotedItem,parseReviseStatus,parseSalesTax,parseSchedulingInfo,parseSearchDetails,parseSearchResults,parseSellerInfo,parseSellingStatus,parseShippingDetails,parseShippingServiceOption,parseStandardFields,parseStoreFront,parseTaxJurisdiction,parseTaxTable,parseUser,parseVATDetails,parseVerifiedUserRequirements,parseWatchList,parseWatchListItem" name="keywords">
+<title>com.adobe.webapis.ebay.EBayResultParser</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'EBayResultParser - API Documentation';
+				var baseRef = '../../../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">API Documentation</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../../../all-classes.html')" href="../../../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../all-classes.html')" href="../../../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../index-list.html')" href="../../../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../../../index.html?com/adobe/webapis/ebay/EBayResultParser.html&amp;com/adobe/webapis/ebay/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Class&nbsp;EBayResultParser</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#methodSummary">Methods</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Class EBayResultParser"); titleBar_setSubNav(false,false,false,false,false,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">com.adobe.webapis.ebay</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Class</td><td class="classSignature">public final  class EBayResultParser</td>
+</tr>
+</table>
+<p></p>
+  Class that contains internal helper functions used to parse
+  the XML returned from the eBay servers to create the relevant
+  objects.
+  
+  Only meant as helpers for the library; NOT meant for use by
+  developers using the library.
+  
+  <p></p>
+<br>
+<hr>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseAddress()">parseAddress</a>(addressData:XMLList):<a href="objects/Address.html">Address</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates an Address object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseBestOfferDetails()">parseBestOfferDetails</a>(detailsData:XMLList):<a href="objects/BestOfferDetails.html">BestOfferDetails</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a BestOfferDetails object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseBiddingDetails()">parseBiddingDetails</a>(detailsData:XMLList):<a href="objects/BiddingDetails.html">BiddingDetails</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a BiddingDetails object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseBidList()">parseBidList</a>(listData:XMLList):<a href="objects/BidList.html">BidList</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a BidList object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseBidListItem()">parseBidListItem</a>(itemData:XMLList):<a href="objects/BidListItem.html">BidListItem</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a BidListItem object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseBuyerInfo()">parseBuyerInfo</a>(infoData:XMLList):<a href="objects/BuyerInfo.html">BuyerInfo</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a BuyerInfo object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseBuyerRequirements()">parseBuyerRequirements</a>(requirementsData:XMLList):<a href="objects/BuyerRequirements.html">BuyerRequirements</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a BuyerRequirements object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseBuyingSummary()">parseBuyingSummary</a>(summaryData:XMLList):<a href="objects/BuyingSummary.html">BuyingSummary</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a BuyingSummary object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseCalculatedShippingRate()">parseCalculatedShippingRate</a>(rateDetails:XMLList):<a href="objects/CalculatedShippingRate.html">CalculatedShippingRate</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a CalculatedShippingRate object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseCategory()">parseCategory</a>(categoryDetails:XMLList):<a href="objects/Category.html">Category</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a Category object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseCharity()">parseCharity</a>(charityData:XMLList):<a href="objects/Charity.html">Charity</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a Charity object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseContactDetails()">parseContactDetails</a>(detailsData:XMLList):<a href="objects/ContactDetails.html">ContactDetails</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a ContactDetails object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseCrossPromotion()">parseCrossPromotion</a>(promotionData:XMLList):<a href="objects/CrossPromotion.html">CrossPromotion</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a CrossPromotion object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseDateString()">parseDateString</a>(dateString:String):Date</div>
+<div class="summaryTableDescription">[static]
+   Creates a Date object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseDigitalDeliveryDetails()">parseDigitalDeliveryDetails</a>(detailsData:XMLList):<a href="objects/DigitalDeliveryDetails.html">DigitalDeliveryDetails</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a DigitalDeliveryDetails object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseDistance()">parseDistance</a>(distanceData:XMLList):<a href="objects/Distance.html">Distance</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a Distance object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseEBayError()">parseEBayError</a>(errorData:XMLList):<a href="objects/EBayError.html">EBayError</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates an EBayError object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseErrorParameter()">parseErrorParameter</a>(parameterData:XMLList):<a href="objects/ErrorParameter.html">ErrorParameter</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates an ErrorParameter object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseExpressItemRequirements()">parseExpressItemRequirements</a>(requirementsData:XMLList):<a href="objects/ExpressItemRequirements.html">ExpressItemRequirements</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates an ExpressItemRequirements object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseExpressSellerRequirements()">parseExpressSellerRequirements</a>(expressSellerRequirementsData:XMLList):<a href="objects/ExpressSellerRequirements.html">ExpressSellerRequirements</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates an ExpressSellerRequirements object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseInsuranceDetails()">parseInsuranceDetails</a>(detailsData:XMLList):<a href="objects/InsuranceDetails.html">InsuranceDetails</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates an InsuranceDetails object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseItem()">parseItem</a>(itemData:XMLList):<a href="objects/Item.html">Item</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates an Item object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseItemSpecific()">parseItemSpecific</a>(itemSpecificData:XMLList):<a href="objects/ItemSpecific.html">ItemSpecific</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates an ItemSpecific object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseListingCheckoutRedirectPreference()">parseListingCheckoutRedirectPreference</a>(preferenceData:XMLList):<a href="objects/ListingCheckoutRedirectPreference.html">ListingCheckoutRedirectPreference</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a ListingCheckoutRedirectPreference object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseListingDesigner()">parseListingDesigner</a>(designerData:XMLList):<a href="objects/ListingDesigner.html">ListingDesigner</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a ListingDesigner object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseListingDetails()">parseListingDetails</a>(detailsData:XMLList):<a href="objects/ListingDetails.html">ListingDetails</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a ListingDetails object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseLostList()">parseLostList</a>(listData:XMLList):<a href="objects/LostList.html">LostList</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a LostList object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseLostListItem()">parseLostListItem</a>(itemData:XMLList):<a href="objects/LostListItem.html">LostListItem</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a LostListItem object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseMaximumItemRequirements()">parseMaximumItemRequirements</a>(requirementsData:XMLList):<a href="objects/MaximumItemRequirements.html">MaximumItemRequirements</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a MaximumItemRequirements object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parsePaginationResult()">parsePaginationResult</a>(paginationData:XMLList):<a href="objects/PaginationResult.html">PaginationResult</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a PaginationResult object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parsePaymentDetails()">parsePaymentDetails</a>(detailsData:XMLList):<a href="objects/PaymentDetails.html">PaymentDetails</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a PaymentDetails object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parsePictureDetails()">parsePictureDetails</a>(detailsData:XMLList):<a href="objects/PictureDetails.html">PictureDetails</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a PictureDetails object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseProductListingDetails()">parseProductListingDetails</a>(detailsData:XMLList):<a href="objects/ProductListingDetails.html">ProductListingDetails</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a ProductListingDetails object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parsePromotedItem()">parsePromotedItem</a>(itemData:XMLList):<a href="objects/PromotedItem.html">PromotedItem</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a PromotedItem object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseReviseStatus()">parseReviseStatus</a>(statusData:XMLList):<a href="objects/ReviseStatus.html">ReviseStatus</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a ReviseStatus object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseSalesTax()">parseSalesTax</a>(taxData:XMLList):<a href="objects/SalesTax.html">SalesTax</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a SalesTax object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseSchedulingInfo()">parseSchedulingInfo</a>(schedulingInfoData:XMLList):<a href="objects/SchedulingInfo.html">SchedulingInfo</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a SchedulingInfo object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseSearchDetails()">parseSearchDetails</a>(detailsData:XMLList):<a href="objects/SearchDetails.html">SearchDetails</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a SearchDetails object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseSellerInfo()">parseSellerInfo</a>(sellerData:XMLList):<a href="objects/Seller.html">Seller</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a SellerInfo object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseSellingStatus()">parseSellingStatus</a>(statusData:XMLList):<a href="objects/SellingStatus.html">SellingStatus</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a SellingStatus object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseShippingDetails()">parseShippingDetails</a>(detailsData:XMLList):<a href="objects/ShippingDetails.html">ShippingDetails</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a ShippingDetails object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseShippingServiceOption()">parseShippingServiceOption</a>(optionData:XMLList):<a href="objects/ShippingServiceOption.html">ShippingServiceOption</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a ShippingServiceOption object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseStandardFields()">parseStandardFields</a>(resultData:XML, ebayResult:<a href="results/EBayResult.html">EBayResult</a>):void</div>
+<div class="summaryTableDescription">[static]
+   Parses the standard output fields in an eBay result and sets the member variables of
+   the passed in object, ebayResult.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseStoreFront()">parseStoreFront</a>(storeFrontData:XMLList):<a href="objects/StoreFront.html">StoreFront</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a StoreFront object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseTaxJurisdiction()">parseTaxJurisdiction</a>(jurisdictionData:XMLList):<a href="objects/TaxJurisdiction.html">TaxJurisdiction</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a TaxJurisdiction object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseTaxTable()">parseTaxTable</a>(tableData:XMLList):<a href="objects/TaxTable.html">TaxTable</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a TaxTable object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseUser()">parseUser</a>(userData:XMLList):<a href="results/EBayUser.html">EBayUser</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a User object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseVATDetails()">parseVATDetails</a>(detailsData:XMLList):<a href="objects/VATDetails.html">VATDetails</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a VATDetails object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseVerifiedUserRequirements()">parseVerifiedUserRequirements</a>(requirementsData:XMLList):<a href="objects/VerifiedUserRequirements.html">VerifiedUserRequirements</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a VerifiedUserRequirements object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseWatchList()">parseWatchList</a>(listData:XMLList):<a href="objects/WatchList.html">WatchList</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a WatchList object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#parseWatchListItem()">parseWatchListItem</a>(itemData:XMLList):<a href="objects/WatchListItem.html">WatchListItem</a>
+</div>
+<div class="summaryTableDescription">[static]
+   Creates a WatchListItem object.</div>
+</td><td class="summaryTableOwnerCol">EBayResultParser</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="methodDetail"></a>
+<div class="detailSectionHeader">Method detail</div>
+<a name="parseAddOrRemoveFromWatchListResult()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseAddOrRemoveFromWatchListResult</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>ebay_internal static function parseAddOrRemoveFromWatchListResult(resultData:XML):<a href="results/AddOrRemoveFromWatchListResult.html">AddOrRemoveFromWatchListResult</a></code><p>
+   Creates an AddOrRemoveFromWatchListResult object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">resultData</span>:XML</code> &mdash; The XML relevant to the AddOrRemoveFromWatchListResult object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="results/AddOrRemoveFromWatchListResult.html">AddOrRemoveFromWatchListResult</a></code> &mdash; 
+                        A new AddOrRemoveFromWatchListResult object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseAddress()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseAddress</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseAddress(addressData:XMLList):<a href="objects/Address.html">Address</a></code><p>
+   Creates an Address object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">addressData</span>:XMLList</code> &mdash; The XML relevant to the Address object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/Address.html">Address</a></code> &mdash; 
+                        A new Address object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseBestOfferDetails()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseBestOfferDetails</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseBestOfferDetails(detailsData:XMLList):<a href="objects/BestOfferDetails.html">BestOfferDetails</a></code><p>
+   Creates a BestOfferDetails object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">detailsData</span>:XMLList</code> &mdash; The XML relevant to the BestOfferDetails object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/BestOfferDetails.html">BestOfferDetails</a></code> &mdash; 
+                        A new BestOfferDetails object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseBiddingDetails()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseBiddingDetails</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseBiddingDetails(detailsData:XMLList):<a href="objects/BiddingDetails.html">BiddingDetails</a></code><p>
+   Creates a BiddingDetails object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">detailsData</span>:XMLList</code> &mdash; The XML relevant to the BiddingDetails object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/BiddingDetails.html">BiddingDetails</a></code> &mdash; 
+                        A new BiddingDetails object.
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseBidList()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseBidList</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseBidList(listData:XMLList):<a href="objects/BidList.html">BidList</a></code><p>
+   Creates a BidList object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">listData</span>:XMLList</code> &mdash; The XML relevant to the BidList object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/BidList.html">BidList</a></code> &mdash; 
+                        A new BidList object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseBidListItem()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseBidListItem</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseBidListItem(itemData:XMLList):<a href="objects/BidListItem.html">BidListItem</a></code><p>
+   Creates a BidListItem object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">itemData</span>:XMLList</code> &mdash; The XML relevant to the BidListItem object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/BidListItem.html">BidListItem</a></code> &mdash; 
+                        A new BidListItem object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseBuyerInfo()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseBuyerInfo</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseBuyerInfo(infoData:XMLList):<a href="objects/BuyerInfo.html">BuyerInfo</a></code><p>
+   Creates a BuyerInfo object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">infoData</span>:XMLList</code> &mdash; The XML relevant to the BuyerInfo object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/BuyerInfo.html">BuyerInfo</a></code> &mdash; 
+                        A new BuyerInfo object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseBuyerRequirements()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseBuyerRequirements</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseBuyerRequirements(requirementsData:XMLList):<a href="objects/BuyerRequirements.html">BuyerRequirements</a></code><p>
+   Creates a BuyerRequirements object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">requirementsData</span>:XMLList</code> &mdash; The XML relevant to the BuyerRequirements object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/BuyerRequirements.html">BuyerRequirements</a></code> &mdash; 
+                        A new BuyerRequirements object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseBuyingSummary()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseBuyingSummary</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseBuyingSummary(summaryData:XMLList):<a href="objects/BuyingSummary.html">BuyingSummary</a></code><p>
+   Creates a BuyingSummary object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">summaryData</span>:XMLList</code> &mdash; The XML relevant to the BuyingSummary object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/BuyingSummary.html">BuyingSummary</a></code> &mdash; 
+                        A new BuyingSummary object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseCalculatedShippingRate()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseCalculatedShippingRate</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseCalculatedShippingRate(rateDetails:XMLList):<a href="objects/CalculatedShippingRate.html">CalculatedShippingRate</a></code><p>
+   Creates a CalculatedShippingRate object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">rateDetails</span>:XMLList</code> &mdash; The XML relevant to the CalculatedShippingRate object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/CalculatedShippingRate.html">CalculatedShippingRate</a></code> &mdash; 
+                        A new CalculatedShippingRate object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseCategory()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseCategory</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseCategory(categoryDetails:XMLList):<a href="objects/Category.html">Category</a></code><p>
+   Creates a Category object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">categoryDetails</span>:XMLList</code> &mdash; The XML relevant to the Category object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/Category.html">Category</a></code> &mdash; 
+                        A new Category object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseCharity()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseCharity</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseCharity(charityData:XMLList):<a href="objects/Charity.html">Charity</a></code><p>
+   Creates a Charity object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">charityData</span>:XMLList</code> &mdash; The XML relevant to the Charity object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/Charity.html">Charity</a></code> &mdash; 
+                        A new Charity object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseContactDetails()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseContactDetails</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseContactDetails(detailsData:XMLList):<a href="objects/ContactDetails.html">ContactDetails</a></code><p>
+   Creates a ContactDetails object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">detailsData</span>:XMLList</code> &mdash; The XML relevant to the ContactDetails object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/ContactDetails.html">ContactDetails</a></code> &mdash; 
+                        A new ContactDetails object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseCrossPromotion()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseCrossPromotion</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseCrossPromotion(promotionData:XMLList):<a href="objects/CrossPromotion.html">CrossPromotion</a></code><p>
+   Creates a CrossPromotion object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">promotionData</span>:XMLList</code> &mdash; The XML relevant to the CrossPromotion object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/CrossPromotion.html">CrossPromotion</a></code> &mdash; 
+                        A new CrossPromotion object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseDateString()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseDateString</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseDateString(dateString:String):Date</code><p>
+   Creates a Date object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">dateString</span>:String</code> &mdash; The date string in the proper format to create the new Date object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>Date</code> &mdash; A new Date object
+   </td>
+</tr>
+</table>
+</div>
+<a name="parseDigitalDeliveryDetails()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseDigitalDeliveryDetails</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseDigitalDeliveryDetails(detailsData:XMLList):<a href="objects/DigitalDeliveryDetails.html">DigitalDeliveryDetails</a></code><p>
+   Creates a DigitalDeliveryDetails object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">detailsData</span>:XMLList</code> &mdash; The XML relevant to the DigitalDeliveryDetails object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/DigitalDeliveryDetails.html">DigitalDeliveryDetails</a></code> &mdash; 
+                        A new DigitalDeliveryDetails object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseDistance()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseDistance</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseDistance(distanceData:XMLList):<a href="objects/Distance.html">Distance</a></code><p>
+   Creates a Distance object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">distanceData</span>:XMLList</code> &mdash; The XML relevant to the Distance object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/Distance.html">Distance</a></code> &mdash; 
+                        A new Distance object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseEBayError()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseEBayError</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseEBayError(errorData:XMLList):<a href="objects/EBayError.html">EBayError</a></code><p>
+   Creates an EBayError object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">errorData</span>:XMLList</code> &mdash; The XML relevant to the EBayError object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/EBayError.html">EBayError</a></code> &mdash; 
+                        A new EBayError object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseEBayItem()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseEBayItem</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>ebay_internal static function parseEBayItem(itemData:XML):<a href="results/EBayItem.html">EBayItem</a></code><p>
+   Creates an EBayItem object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">itemData</span>:XML</code> &mdash; The XML relevant to the EBayItem object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="results/EBayItem.html">EBayItem</a></code> &mdash; 
+                        A new EBayItem object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseEBayUser()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseEBayUser</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>ebay_internal static function parseEBayUser(userData:XML):<a href="results/EBayUser.html">EBayUser</a></code><p>
+   Creates an EBayUser object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">userData</span>:XML</code> &mdash; The XML relevant to the EBayUser object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="results/EBayUser.html">EBayUser</a></code> &mdash; 
+                        A new EBayUser object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseErrorParameter()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseErrorParameter</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseErrorParameter(parameterData:XMLList):<a href="objects/ErrorParameter.html">ErrorParameter</a></code><p>
+   Creates an ErrorParameter object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">parameterData</span>:XMLList</code> &mdash; The XML relevant for the ErrorParameter object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/ErrorParameter.html">ErrorParameter</a></code> &mdash; 
+                        A new ErrorParameter object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseExpressItemRequirements()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseExpressItemRequirements</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseExpressItemRequirements(requirementsData:XMLList):<a href="objects/ExpressItemRequirements.html">ExpressItemRequirements</a></code><p>
+   Creates an ExpressItemRequirements object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">requirementsData</span>:XMLList</code> &mdash; The XML relevant for the ExpressItemRequirements object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/ExpressItemRequirements.html">ExpressItemRequirements</a></code> &mdash; 
+                        A new ExpressItemRequirements object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseExpressSellerRequirements()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseExpressSellerRequirements</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseExpressSellerRequirements(expressSellerRequirementsData:XMLList):<a href="objects/ExpressSellerRequirements.html">ExpressSellerRequirements</a></code><p>
+   Creates an ExpressSellerRequirements object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">expressSellerRequirementsData</span>:XMLList</code> &mdash; The XML relevant to the ExpressSellerRequirements object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/ExpressSellerRequirements.html">ExpressSellerRequirements</a></code> &mdash; 
+                        A new ExpressSellerRequirements object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseInsuranceDetails()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseInsuranceDetails</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseInsuranceDetails(detailsData:XMLList):<a href="objects/InsuranceDetails.html">InsuranceDetails</a></code><p>
+   Creates an InsuranceDetails object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">detailsData</span>:XMLList</code> &mdash; The XML relevant to the InsuranceDetails object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/InsuranceDetails.html">InsuranceDetails</a></code> &mdash; 
+                        A new InsuranceDetails object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseItem()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseItem</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseItem(itemData:XMLList):<a href="objects/Item.html">Item</a></code><p>
+   Creates an Item object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">itemData</span>:XMLList</code> &mdash; The XML relevant to the Item object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/Item.html">Item</a></code> &mdash; 
+                        A new Item object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseItemSpecific()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseItemSpecific</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseItemSpecific(itemSpecificData:XMLList):<a href="objects/ItemSpecific.html">ItemSpecific</a></code><p>
+   Creates an ItemSpecific object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">itemSpecificData</span>:XMLList</code> &mdash; The XML relevant to the ItemSpecific object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/ItemSpecific.html">ItemSpecific</a></code> &mdash; 
+                        A new ItemSpecific object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseListingCheckoutRedirectPreference()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseListingCheckoutRedirectPreference</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseListingCheckoutRedirectPreference(preferenceData:XMLList):<a href="objects/ListingCheckoutRedirectPreference.html">ListingCheckoutRedirectPreference</a></code><p>
+   Creates a ListingCheckoutRedirectPreference object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">preferenceData</span>:XMLList</code> &mdash; The XML relevant to the ListingCheckoutRedirectPreference object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/ListingCheckoutRedirectPreference.html">ListingCheckoutRedirectPreference</a></code> &mdash; 
+                        A new ListingCheckoutRedirectPreference object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseListingDesigner()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseListingDesigner</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseListingDesigner(designerData:XMLList):<a href="objects/ListingDesigner.html">ListingDesigner</a></code><p>
+   Creates a ListingDesigner object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">designerData</span>:XMLList</code> &mdash; The XML relevant to the ListingDesigner object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/ListingDesigner.html">ListingDesigner</a></code> &mdash; 
+                        A new ListingDesigner object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseListingDetails()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseListingDetails</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseListingDetails(detailsData:XMLList):<a href="objects/ListingDetails.html">ListingDetails</a></code><p>
+   Creates a ListingDetails object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">detailsData</span>:XMLList</code> &mdash; The XML relevant to the ListingDetails object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/ListingDetails.html">ListingDetails</a></code> &mdash; 
+                        A new ListingDetails object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseLostList()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseLostList</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseLostList(listData:XMLList):<a href="objects/LostList.html">LostList</a></code><p>
+   Creates a LostList object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">listData</span>:XMLList</code> &mdash; The XML relevant to the LostList object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/LostList.html">LostList</a></code> &mdash; 
+                        A new LostList object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseLostListItem()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseLostListItem</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseLostListItem(itemData:XMLList):<a href="objects/LostListItem.html">LostListItem</a></code><p>
+   Creates a LostListItem object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">itemData</span>:XMLList</code> &mdash; The XML relevant to the LostListItem object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/LostListItem.html">LostListItem</a></code> &mdash; 
+                        A new LostListItem object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseMaximumItemRequirements()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseMaximumItemRequirements</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseMaximumItemRequirements(requirementsData:XMLList):<a href="objects/MaximumItemRequirements.html">MaximumItemRequirements</a></code><p>
+   Creates a MaximumItemRequirements object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">requirementsData</span>:XMLList</code> &mdash; The XML relevant to the MaximumItemRequirements object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/MaximumItemRequirements.html">MaximumItemRequirements</a></code> &mdash; 
+                        A new MaximumItemRequirements object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseMyEBayBuyingItems()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseMyEBayBuyingItems</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>ebay_internal static function parseMyEBayBuyingItems(itemsData:XML):<a href="results/MyEBayBuyingItems.html">MyEBayBuyingItems</a></code><p>
+   Creates a MyEBayBuyingItems object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">itemsData</span>:XML</code> &mdash; The XML relevant to the MyEBayBuyingItems object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="results/MyEBayBuyingItems.html">MyEBayBuyingItems</a></code> &mdash; 
+                        A new MyEBayBuyingItems object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parsePaginationResult()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parsePaginationResult</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parsePaginationResult(paginationData:XMLList):<a href="objects/PaginationResult.html">PaginationResult</a></code><p>
+   Creates a PaginationResult object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">paginationData</span>:XMLList</code> &mdash; The XML relevant to the PaginationResult object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/PaginationResult.html">PaginationResult</a></code> &mdash; 
+                        A new PaginationResult object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parsePaymentDetails()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parsePaymentDetails</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parsePaymentDetails(detailsData:XMLList):<a href="objects/PaymentDetails.html">PaymentDetails</a></code><p>
+   Creates a PaymentDetails object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">detailsData</span>:XMLList</code> &mdash; The XML relevant to the PaymentDetails object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/PaymentDetails.html">PaymentDetails</a></code> &mdash; 
+                        A new PaymentDetails object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parsePictureDetails()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parsePictureDetails</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parsePictureDetails(detailsData:XMLList):<a href="objects/PictureDetails.html">PictureDetails</a></code><p>
+   Creates a PictureDetails object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">detailsData</span>:XMLList</code> &mdash; The XML relevant to the PictureDetails object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/PictureDetails.html">PictureDetails</a></code> &mdash; 
+                        A new PictureDetails object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parsePlaceOfferResult()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parsePlaceOfferResult</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>ebay_internal static function parsePlaceOfferResult(resultData:XML):<a href="results/PlaceOfferResult.html">PlaceOfferResult</a></code><p>
+   Creates a PlaceOfferResult object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">resultData</span>:XML</code> &mdash; The XML relevant to the PlaceOfferResult object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="results/PlaceOfferResult.html">PlaceOfferResult</a></code> &mdash; 
+                        A new PlaceOfferResult object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseProductListingDetails()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseProductListingDetails</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseProductListingDetails(detailsData:XMLList):<a href="objects/ProductListingDetails.html">ProductListingDetails</a></code><p>
+   Creates a ProductListingDetails object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">detailsData</span>:XMLList</code> &mdash; The XML relevant to the ProductListingDetails object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/ProductListingDetails.html">ProductListingDetails</a></code> &mdash; 
+                        A new ProductListingDetails object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parsePromotedItem()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parsePromotedItem</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parsePromotedItem(itemData:XMLList):<a href="objects/PromotedItem.html">PromotedItem</a></code><p>
+   Creates a PromotedItem object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">itemData</span>:XMLList</code> &mdash; The XML relevant to the PromotedItem object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/PromotedItem.html">PromotedItem</a></code> &mdash; 
+                        A new PromotedItem object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseReviseStatus()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseReviseStatus</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseReviseStatus(statusData:XMLList):<a href="objects/ReviseStatus.html">ReviseStatus</a></code><p>
+   Creates a ReviseStatus object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">statusData</span>:XMLList</code> &mdash; The XML relevant to the ReviseStatus object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/ReviseStatus.html">ReviseStatus</a></code> &mdash; 
+                        A new ReviseStatus object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseSalesTax()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseSalesTax</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseSalesTax(taxData:XMLList):<a href="objects/SalesTax.html">SalesTax</a></code><p>
+   Creates a SalesTax object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">taxData</span>:XMLList</code> &mdash; The XML relevant to the SalesTax object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/SalesTax.html">SalesTax</a></code> &mdash; 
+                        A new SalesTax object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseSchedulingInfo()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseSchedulingInfo</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseSchedulingInfo(schedulingInfoData:XMLList):<a href="objects/SchedulingInfo.html">SchedulingInfo</a></code><p>
+   Creates a SchedulingInfo object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">schedulingInfoData</span>:XMLList</code> &mdash; The XML relevant to the SchedulingInfo object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/SchedulingInfo.html">SchedulingInfo</a></code> &mdash; 
+                        A new SchedulingInfo object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseSearchDetails()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseSearchDetails</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseSearchDetails(detailsData:XMLList):<a href="objects/SearchDetails.html">SearchDetails</a></code><p>
+   Creates a SearchDetails object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">detailsData</span>:XMLList</code> &mdash; The XML relevant to the SearchDetails object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/SearchDetails.html">SearchDetails</a></code> &mdash; 
+                        A new SearchDetails object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseSearchResults()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseSearchResults</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>ebay_internal static function parseSearchResults(resultData:XML):<a href="results/SearchResults.html">SearchResults</a></code><p>
+   Creates a SearchResults object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">resultData</span>:XML</code> &mdash; The XML relevant to the SearchResults object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="results/SearchResults.html">SearchResults</a></code> &mdash; 
+                        A new SearchResults object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseSellerInfo()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseSellerInfo</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseSellerInfo(sellerData:XMLList):<a href="objects/Seller.html">Seller</a></code><p>
+   Creates a SellerInfo object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">sellerData</span>:XMLList</code> &mdash; The XML relevant to the SellerInfo object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/Seller.html">Seller</a></code> &mdash; 
+                        A new SellerInfo object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseSellingStatus()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseSellingStatus</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseSellingStatus(statusData:XMLList):<a href="objects/SellingStatus.html">SellingStatus</a></code><p>
+   Creates a SellingStatus object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">statusData</span>:XMLList</code> &mdash; The XML relevant to the SellingStatus object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/SellingStatus.html">SellingStatus</a></code> &mdash; 
+                        A new SellingStatus object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseShippingDetails()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseShippingDetails</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseShippingDetails(detailsData:XMLList):<a href="objects/ShippingDetails.html">ShippingDetails</a></code><p>
+   Creates a ShippingDetails object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">detailsData</span>:XMLList</code> &mdash; The XML relevant to the ShippingDetails object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/ShippingDetails.html">ShippingDetails</a></code> &mdash; 
+                        A new ShippingDetails object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseShippingServiceOption()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseShippingServiceOption</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseShippingServiceOption(optionData:XMLList):<a href="objects/ShippingServiceOption.html">ShippingServiceOption</a></code><p>
+   Creates a ShippingServiceOption object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">optionData</span>:XMLList</code> &mdash; The XML relevant to the ShippingServiceOption object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/ShippingServiceOption.html">ShippingServiceOption</a></code> &mdash; 
+                        A new ShippingServiceOption object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseStandardFields()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseStandardFields</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseStandardFields(resultData:XML, ebayResult:<a href="results/EBayResult.html">EBayResult</a>):void</code><p>
+   Parses the standard output fields in an eBay result and sets the member variables of
+   the passed in object, ebayResult.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">resultData</span>:XML</code> &mdash; The XML of the standard output fields in the eBay result
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">ebayResult</span>:<a href="results/EBayResult.html">EBayResult</a></code> &mdash; The object of which member variables to set
+   </td>
+</tr>
+</table>
+</div>
+<a name="parseStoreFront()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseStoreFront</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseStoreFront(storeFrontData:XMLList):<a href="objects/StoreFront.html">StoreFront</a></code><p>
+   Creates a StoreFront object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">storeFrontData</span>:XMLList</code> &mdash; The XML relevant to the StoreFront object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/StoreFront.html">StoreFront</a></code> &mdash; 
+                        A new StoreFront object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseTaxJurisdiction()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseTaxJurisdiction</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseTaxJurisdiction(jurisdictionData:XMLList):<a href="objects/TaxJurisdiction.html">TaxJurisdiction</a></code><p>
+   Creates a TaxJurisdiction object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">jurisdictionData</span>:XMLList</code> &mdash; The XML relevant to the TaxJurisdiction object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/TaxJurisdiction.html">TaxJurisdiction</a></code> &mdash; 
+                        A new TaxJurisdiction object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseTaxTable()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseTaxTable</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseTaxTable(tableData:XMLList):<a href="objects/TaxTable.html">TaxTable</a></code><p>
+   Creates a TaxTable object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">tableData</span>:XMLList</code> &mdash; The XML relevant to the TaxTable object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/TaxTable.html">TaxTable</a></code> &mdash; 
+                        A new TaxTable object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseUser()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseUser</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseUser(userData:XMLList):<a href="results/EBayUser.html">EBayUser</a></code><p>
+   Creates a User object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">userData</span>:XMLList</code> &mdash; The XML relevant to the User object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="results/EBayUser.html">EBayUser</a></code> &mdash; 
+                        A new User object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseVATDetails()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseVATDetails</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseVATDetails(detailsData:XMLList):<a href="objects/VATDetails.html">VATDetails</a></code><p>
+   Creates a VATDetails object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">detailsData</span>:XMLList</code> &mdash; The XML relevant to the VATDetails object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/VATDetails.html">VATDetails</a></code> &mdash; 
+                        A new VATDetails object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseVerifiedUserRequirements()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseVerifiedUserRequirements</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseVerifiedUserRequirements(requirementsData:XMLList):<a href="objects/VerifiedUserRequirements.html">VerifiedUserRequirements</a></code><p>
+   Creates a VerifiedUserRequirements object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">requirementsData</span>:XMLList</code> &mdash; The XML relevant to the VerifiedUserRequirements object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/VerifiedUserRequirements.html">VerifiedUserRequirements</a></code> &mdash; 
+                        A new VerifiedUserRequirements object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseWatchList()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseWatchList</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseWatchList(listData:XMLList):<a href="objects/WatchList.html">WatchList</a></code><p>
+   Creates a WatchList object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">listData</span>:XMLList</code> &mdash; The XML relevant to the WatchList object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/WatchList.html">WatchList</a></code> &mdash; 
+                        A new WatchList object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<a name="parseWatchListItem()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">parseWatchListItem</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function parseWatchListItem(itemData:XMLList):<a href="objects/WatchListItem.html">WatchListItem</a></code><p>
+   Creates a WatchListItem object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">itemData</span>:XMLList</code> &mdash; The XML relevant to the WatchListItem object
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="objects/WatchListItem.html">WatchListItem</a></code> &mdash; 
+                        A new WatchListItem object
+   
+                        
+                     </td>
+</tr>
+</table>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright">
+<br>Wed Dec 6 2006, 6:38 PM GMT </center>
+</div>
+</body>
+</html>
+<!--Wed Dec 6 2006, 6:38 PM GMT -->
