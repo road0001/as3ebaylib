@@ -30,10 +30,10 @@ classes.
 			 */
 			public function onCreationComplete():void
 			{
-				AuthAndAuth.apiDevName = "";
-				AuthAndAuth.apiAppName = "";
-				AuthAndAuth.apiCertName = "";
-				AuthAndAuth.apiAuthToken = "";
+				AuthAndAuth.apiDevName = "INSERT YOUR OWN DEV ID HERE";
+				AuthAndAuth.apiAppName = "INSERT YOUR OWN APP ID HERE";
+				AuthAndAuth.apiCertName = "INSERT YOUR OWN CERT ID HERE";
+				AuthAndAuth.apiAuthToken = "INSERT YOUR OWN AUTH TOKEN HERE";
 				
 				// Create a new service every time so the old one that already has
 				// listeners defined on it will get garbaged collected
