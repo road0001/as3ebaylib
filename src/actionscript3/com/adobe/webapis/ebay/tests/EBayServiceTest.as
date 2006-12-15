@@ -81,11 +81,11 @@ public class EBayServiceTest extends TestCase
 	// 	You must set your api key values first before running
 	// 	these tests!
 	// =======================================================
-	public static var DEV_NAME:String = "";
-	public static var APP_NAME:String = "";
-	public static var CERT_NAME:String = "";
-	public static var AUTH_TOKEN:String = "";
-	public static var END_USER_IP:String = "";
+	public static var DEV_NAME:String = "INSERT YOUR OWN DEV ID HERE";
+	public static var APP_NAME:String = "INSERT YOUR OWN APP ID HERE";
+	public static var CERT_NAME:String = "INSERT YOUR OWN CERT ID HERE";
+	public static var AUTH_TOKEN:String = "INSERT YOUR OWN AUTH TOKEN HERE";
+	public static var END_USER_IP:String = "INSERT YOUR OWN USER IP HERE";  // necessary only for PlaceOffer()
 
 	/**
 	 * Constructor
