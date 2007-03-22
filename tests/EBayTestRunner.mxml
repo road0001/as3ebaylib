@@ -42,7 +42,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	<mx:Script>
 		<![CDATA[
 			
-			import com.adobe.webapis.ebay.tests.*;
+			import com.adobe.webapis.ebay.*;
 			import flexunit.framework.TestSuite;
 			
 			private function onCreationComplete():void
